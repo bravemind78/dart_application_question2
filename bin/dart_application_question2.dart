@@ -6,6 +6,10 @@
 // ignore_for_file: prefer_adjacent_string_concatenation, prefer_interpolation_to_compose_strings
 
 void main() {
+  returnsecond();
+}
+
+void returnsecond() {
   List<dynamic> array = [7, 2, 10, 41, 35];
   var maxnumber = array[0];
   var minNumber = array[array.length - 1];
